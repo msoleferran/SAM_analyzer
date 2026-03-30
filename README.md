@@ -51,7 +51,7 @@ nextflow run main.nf --sam ruta/al/archivo.sam
 Podemos analizar un archivo ejemplo(`test.sam`), localizado en `data/`:
 
 ```bash
-nextflow run main.nf --sam data/test.sam
+nextflow run main.nf --sam $PWD/data/test.sam
 ```
 
 El programa debería imprimirnos: 
@@ -59,9 +59,9 @@ El programa debería imprimirnos:
 ```bash
 Resultados análisis: 
 
-- Total de lecturas alineadas: 29190182 
-- Lecturas con MAPQ = 60: 16489015 
-- Porcentaje: 56.5%
+- Total de lecturas alineadas: 98128 
+- Lecturas con MAPQ = 60: 50089 
+- Porcentaje: 51.0%
 ```
 
 Espero que os sea de utilidad! :)
