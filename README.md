@@ -26,7 +26,7 @@ Esta herramienta está gestionada con **Nextflow** para ejecutar el script de fo
 ### Clonar el repositorio
 Clona el repositorio utilizando:
 ```bash
-git clone https://github.com/msoleferran/SAM_analyzer.git
+git clone https://github.com/msoleferran/proyecto-sam.git
 ```
 
 Luego, muévete al directorio del proyecto:
